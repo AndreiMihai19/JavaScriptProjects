@@ -1,0 +1,35 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.dice-roller-container{
+    display: block;
+    padding: 12px 12px;
+    max-width: fit-content;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.308);
+    margin:auto;
+    text-align: center;
+}
+
+#diceNumber{
+    padding: 5px;
+    font-size: medium;
+    width: 200px;
+    text-align: center;
+    font-weight: bold;
+
+}
+
+#btnRoll{
+    background-color:rgb(173, 17, 17);
+    border:none;
+    padding: 10px 20px;
+    cursor:pointer;
+    transition: background-color 0.25;
+    color:white;
+    border-radius: 10px;
+}
+
+#btnRoll:hover{
+    background-color:rgb(109, 11, 11);
+}
