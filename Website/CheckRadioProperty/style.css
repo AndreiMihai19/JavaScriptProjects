@@ -1,0 +1,24 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: left;
+}
+
+.container{
+    padding: 25px 10px;
+    border: 2px solid black;
+    max-width: fit-content;
+    border-radius: 10px;
+}
+
+#submit{
+    padding: 10px 10px;
+    background-color: aqua;
+    cursor: pointer;
+    transition: background-color 0.25;
+    border:none;
+    border-radius: 5px;
+}
+
+#submit:hover{
+    background-color: rgb(3, 129, 129);
+}
