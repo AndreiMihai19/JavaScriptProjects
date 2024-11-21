@@ -1,0 +1,50 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgb(230, 218, 218);
+}
+
+.container-temperature{
+    padding: 10px;
+    max-width: fit-content;
+    max-height: fit-content;
+    margin:auto;
+    text-align: center;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.185);
+}
+
+h1{
+    padding: 20px 50px;
+    color:rgba(50, 97, 252, 0.986);
+}
+
+.radio-temp{
+    font-weight: bold;
+    font-size: 20px;
+}
+
+#inputTemp{
+    height: 30px;
+    font-size: 30px;
+    width: 150px;
+    text-align: center;
+    border:2px solid black;
+    border-radius: 4px;
+}
+
+#btnSubmit{
+    padding: 10px;
+    font-size: 17px;
+    font-weight: bold;
+    cursor: pointer;
+    background-color: red;
+    color:white;
+    border:none;
+    border-radius: 8px;
+    transition: background-color 0.25s;
+}
+
+#result{
+    font-size: 30px;
+}
