@@ -1,0 +1,38 @@
+/*
+.myButtons{
+    font-size: 4rem;
+    display:grid;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+    background-color: blue;
+    margin: 20px;
+    cursor:pointer;
+    color:white;
+}
+*/
+#myButton{
+    font-size: 4rem;
+    margin: 10px;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+    cursor:pointer;
+}
+
+.enabled{
+    background-color: blue;
+    color: white;
+
+}
+
+.hover{
+    box-shadow: 0 0 10px grey;
+    font-weight: bold;
+}
+
+.disabled{
+    background-color: grey;
+    color: hsl(0,0%,80%);
+
+}

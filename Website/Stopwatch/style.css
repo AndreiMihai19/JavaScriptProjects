@@ -1,0 +1,79 @@
+body{
+    margin:0;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: bisque;
+}
+
+#stopwatch-container{
+    background-color: white;
+    display:grid;
+    border-radius: 8px;
+    max-width: fit-content;
+    padding: 10px 30px;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    box-shadow: 0 0 5px 2px rgb(117, 117, 117);
+}
+
+#stopwatch-title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#stopwatch{
+    font-family: monospace;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size:30px;
+}
+
+.buttons{
+    display: inline;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+button{
+    border:none;
+    border-radius: 5px;
+    cursor:pointer;
+    font-weight: bold;
+    font-size: 12px;
+    padding: 10px 10px;
+    color: white;
+}
+
+#button-start{
+    background-color: rgb(32, 192, 32);
+    transition: background-color 0.25;
+}
+
+#button-start:hover{
+    background-color: rgb(27, 167, 27);;
+}
+
+#button-stop{
+    background-color: rgb(196, 16, 16);
+    transition: background-color 0.25;
+}
+
+#button-stop:hover{
+    background-color: rgb(151, 13, 13);
+}
+
+#button-reset{
+    background-color: rgb(20, 148, 233);
+    transition: background-color 0.25;
+}
+
+#button-reset:hover{
+    background-color: rgb(18, 125, 197);
+}
+
+
+
