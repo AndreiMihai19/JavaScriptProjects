@@ -1,0 +1,21 @@
+[{
+    "name": "Andrei",
+    "age": 23,
+    "isEmployed": true
+}, 
+{
+    "name": "Andreea",
+    "age": 22,
+    "isEmployed": false
+},
+{
+    "name": "Ioana",
+    "age": 40,
+    "isEmployed": true
+},
+{
+    "name": "Mihai",
+    "age": 33,
+    "isEmployed": false
+}
+]

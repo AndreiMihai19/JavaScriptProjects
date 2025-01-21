@@ -1,0 +1,54 @@
+body{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: auto;
+    justify-content: center;
+    text-align: center;
+}
+
+.game-container{
+    display: grid;
+    justify-content: center;
+    text-align: center;
+}
+
+.buttons-container{
+    display: inline;
+}
+
+#myId{
+    color: #2a45a8;
+}
+
+.game-buttons{
+    background-color: #173fcf;
+    border: none;
+    border-radius: 50%;
+    font-size: 100px;
+    cursor: pointer;
+    margin: 10px;
+}
+
+.game-buttons:hover{
+    background-color: #1c4bf7;
+    box-shadow: 0px 0px 20px #1c4bf7d8;
+}
+
+#result-message{
+    font-size: 70px;
+
+}
+
+#reset-button{
+   background-color: #173fcf;
+   color: white;
+   border: none;
+   font-size: 50px;
+   cursor: pointer;
+   margin: 20px;
+   border-radius: 20px;
+}
+
+button[id='reset-button']:hover{
+    background-color: #1c4bf7;
+    box-shadow: 0px 0px 20px #1c4bf7d8;
+}
